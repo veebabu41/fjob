@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title>veeru web menu page </title>
+<style>
+ul li:hover{
+background-color:green;
+          color:red;
+}
+*{  margin:0px;
+    padding:0px;
+}
+ul{ list-style:none
+}
+ul li{ float:left;
+       width:200px;
+	   height:50px;
+	   background-color:yellow;
+	   text-align:center;
+	   line-height:50px;
+	   font-size:25px;
+	   color:red;
+	   border-radius:25px;}
+	   
+	   ul li ul {
+	              display:none;}
+       ul li ul{
+				  position: relative;
+}
+      ul li ul  { 
+	  position:absolute;
+	  bottom:200px;
+	  top:80px;
+	  }
+     ul li:hover >ul { display:block;
+	 }
+</style>
+</head>
+<body background="C:\Users\User\Desktop\veeru.png" width=1350 height=600/>
+<ul>
+<li> <a href="C:\Users\User\Desktop\NOTES  to Java.pdf"\>   java  </a> 
+      <ul> <li><a href="#">indruction </a> </li>
+	        <li><a href="#">loops </a> </li>
+			 <li><a href="#">oops </a> </li>
+       </ul>
+</li>
+
+<li> <a href="#">   html   </a> </li>
+<li> <a href="#">   python  </a> </li>
+<li> <a href="#">   css    </a> </li>
+<li> <a href="#">   jscript  </a> </li>
+</ul>
+</body>
+</html>
